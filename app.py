@@ -3,7 +3,6 @@ import pandas as pd
 import pickle
 
 # Load trained model and column structure
-
 model = pickle.load(open('rf_model.pkl', 'rb'))
 # list of columns used in training
 model_columns = pickle.load(open('model_columns.pkl', 'rb'))
